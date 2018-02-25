@@ -1,13 +1,25 @@
 # WebFrameworkBenchmark
 reference @ techempower
 
+### Summary & Opinion
+> 웬만한 언어에는 충분히 좋은 Framework가 존재.
+
+> 이제 우리가 할 일은 하나 골라서 자유자재로 다룰 수 있을 때까지 익히는 것.
+
+- `java` - `light-4j`
+- `python` - `japronto`
+- `c` - `h2o`
+- `javascript` - `nodejs-mitol` *[mitol](https://github.com/Helidium/Mitol)은 nodejs의 기본 http를 대체하는 C++ binding의 npm package*
+- `go` - `fasthttp-router`
+
+`이 글에 언급된 프레임워크들은 한번씩 해볼만한 재밌고 생산성 있는 쓸만한 framework 들입니다. `
 
 ## Round 15 2018-02-14
 ### Interactive Chart
 https://ckcks12.github.io/WebFrameworkBenchmark/web-framework-benchmark.html
+[![](https://i.imgur.com/crmSYtI.png)](https://ckcks12.github.io/WebFrameworkBenchmark/web-framework-benchmark.html)
 
 ### Candidates
-` 그래도 나름 생산성 있고 가용성 있는 쓸만한 프레임워크만 모아보았읍니다. 특수한 용도의 프레임워크는 제외했읍니다 `
 - servlet
 - light-4j
 - japronto
