@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Framework Benchmark</title>
+    <style>
+        .chart {
+            width: 100%;
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
+<canvas id="chart"></canvas>
+
+<script src="https://unpkg.com/chart.js@2.7.1/dist/Chart.bundle.min.js"></script>
+<script>
+    var data = {
+        labels: ['JSON Serialization', 'Single Query', 'Multiple Queries', 'Fortune', 'Data Updates', 'Plaintext'],
+        datasets: [{
+                label: 'servlet',
+                data: [100, 34.20870359, 68.08761946, 25.44826818, 36.02024922, 27.39282731],
+                borderColor: '#f25435',
+                backgroundColor: '#f2543588'
+            },
+            {
+                label: 'light-4j',
+                data: [96.51834701, 92.26449032, 95.08214324, 88.87563044, 40.07009346, 91.36570369],
+                borderColor: '#f1ac35',
+                backgroundColor: '#f1ac3588'
+            },
+            {
+                label: 'japronto',
+                data: [95.70912341, 0, 0, 0, 0, 88.43220107],
+                borderColor: '#f0f034',
+                backgroundColor: '#f0f03488'
+            },
+            {
+                label: 'h2o',
+                data: [91.21058208, 100, 100, 100, 100, 82.55105096],
+                borderColor: '#92ef33',
+                backgroundColor: '#92ef3388'
+            },
+            {
+                label: 'nodejs-mitol',
+                data: [90.52799445, 88.04359721, 64.1683668, 58.53552469, 42.81542056, 22.49232538],
+                borderColor: '#30c954',
+                backgroundColor: '#30c95488'
+            },
+            {
+                label: 'netty',
+                data: [89.7792764, 0, 0, 0, 0, 91.82212887],
+                borderColor: '#42aa8b',
+                backgroundColor: '#42aa8b88'
+            },
+            {
+                label: 'apistar',
+                data: [87.49085956, 0, 0, 0, 0, 34.96479542],
+                borderColor: '#25f9e8',
+                backgroundColor: '#25f9e888'
+            },
+            {
+                label: 'fasthttp',
+                data: [54.37517388, 100, 65.40319983, 66.03450379, 52.60903427, 100],
+                borderColor: '#086d87',
+                backgroundColor: '#086d8788'
+            },
+            {
+                label: 'express',
+                data: [32.9540842, 33.25134692, 50.14495866, 25.14544519, 26.42133956, 10.53184696],
+                borderColor: '#0909e5',
+                backgroundColor: '#0909e588'
+            },
+            {
+                label: 'django',
+                data: [22.24931627, 0, 21.87265113, 9.447440854, 16.68613707, 5.999374174],
+                borderColor: '#8c08e5',
+                backgroundColor: '#8c08e588'
+            },
+            {
+                label: 'flask',
+                data: [14.27778732, 100, 59.64780414, 7.673460296, 35.9423676, 4.573669238],
+                borderColor: '#d60a99',
+                backgroundColor: '#d60a9988'
+            },
+            {
+                label: 'codeigniter',
+                data: [1.917782396, 100, 44.91570922, 5.397780005, 0, 0]
+            }
+        ]
+    }
+    var options = []
+
+    var ctx = document.getElementById('chart').getContext('2d');
+    var chart = new Chart(ctx, {
+        type: 'radar',
+        data: data,
+        options: options
+    })
+</script>
+</body>
+</html>
