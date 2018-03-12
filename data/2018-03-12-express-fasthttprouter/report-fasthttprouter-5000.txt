@@ -1,0 +1,63 @@
+Requests      [total, rate]            50000, 5000.00
+Duration      [total, attack, wait]    39.9993236s, 9.9999966s, 29.999327s
+Latencies     [mean, 50, 95, 99, max]  8.442537664s, 998.7µs, 31.4462934s, 31.7711358s, 32.7331343s
+Bytes In      [total, mean]            384504, 7.69
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  10.39%
+Status Codes  [code:count]             0:44804  200:5196  
+Error Set:
+Get http://box.ckcks12.com:3000: dial tcp 0.0.0.0:0->45.77.21.205:3000: bind: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+Get http://box.ckcks12.com:3000: net/http: timeout awaiting response headers
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3242->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3234->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3241->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3246->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3210->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3263->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3212->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3211->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3194->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3166->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3262->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3209->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3502->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3251->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3483->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3478->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3410->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3405->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3466->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3488->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3451->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3460->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3447->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3439->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3428->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3422->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:3727->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4480->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4472->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4437->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4494->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4427->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4436->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4463->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4556->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4443->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4424->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4522->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4544->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4422->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4663->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4702->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4518->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4581->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:4688->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:5194->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:10099->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:10721->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:10110->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:10007->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:10153->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:10436->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
+Get http://box.ckcks12.com:3000: read tcp 121.140.51.109:10400->45.77.21.205:3000: wsarecv: An existing connection was forcibly closed by the remote host.
